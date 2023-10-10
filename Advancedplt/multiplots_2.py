@@ -21,13 +21,15 @@ axs[1, 0].plot(x, np.random.random(100))
 axs[1, 0].set_title('Random Function')
 
 axs[1, 1].plot(x, np.log(x))
-axs[1, 1].set_title('Log Fumction')
+axs[1, 1].set_title('Log Function')
 axs[1, 1].set_xlabel('Test')
 
 fig.suptitle('Four Plots')
-
+# Remove overlap from the titles on axes above
+plt.tight_layout()
 # plot the data
 plt.show()
 
 # and save it
-plt.savefig('../Figures/figure11_1_HQ.png', dpi=300)
+plt.savefig('../Figures/figure11_1_HQi.png', dpi=300,
+            transparent=True, bbox_inches='tight')
