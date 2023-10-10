@@ -10,6 +10,7 @@ weight = [80, 83, 84, 85, 86, 82, 81, 79,
 
 # Default plt function plots line chart so no need to call line
 
-plt.plot(years, weight)
+plt.plot(years, weight, c='Blue', lw=3,
+         linestyle='--')
 plt.show()
-plt.savefig('../Figures/figure2_1.png')
+plt.savefig('../Figures/figure2_2.png')
