@@ -12,4 +12,4 @@ plt.boxplot(heights)
 plt.show()
 
 # and save the fig
-plt.savefig('../Figures/figure6_1.png')
+plt.savefig('../Figures/figure6_2.png')
