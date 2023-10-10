@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 ages = np.random.normal(20, 1.5, 1000)
 
 # Plot and show histogram
-plt.hist(ages)
+plt.hist(ages, bins=20, color='green', )
 plt.show()
 
 # save the figure
-plt.savefig('../Figures/figure4_1.png')
+plt.savefig('../Figures/figure4_2.png')
