@@ -10,10 +10,12 @@ income = [55, 56, 62, 61, 72, 72, 73, 75]
 income_ticks = list(range(50, 81, 2))
 
 plt.plot(years, income)
-plt.title('Income of John in Pounds Sterling')
-plt.xlabel('Year')
-plt.ylabel('Income in Pounds Sterling')
+plt.title('Income of John in Pounds Sterling',
+          fontsize=25, fontname='Times New Roman')
+plt.xlabel('Year', fontname='Times New Roman')
+plt.ylabel('Income in Pounds Sterling', fontname='Times New Roman')
 # list comprehension loop through all ticks and produce f'string for ticks on y axi
-plt.yticks(income_ticks, [f'£{x}K  UK' for x in income_ticks])
+plt.yticks(income_ticks, [
+           f'£{x}K  UK' for x in income_ticks], fontname='Times New Roman')
 plt.show()
-plt.savefig('../Figures/figure7_2.png')
+plt.savefig('../Figures/figure7_3.png')
