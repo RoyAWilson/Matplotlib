@@ -30,4 +30,4 @@ fig.suptitle('Four Plots')
 plt.show()
 
 # and save it
-plt.savefig('../Figures/figure11_1.png')
+plt.savefig('../Figures/figure11_1_HQ.png', dpi=300)
