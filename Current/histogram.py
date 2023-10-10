@@ -11,9 +11,14 @@ ages = np.random.normal(20, 2.5, 1000)
 # plt.hist(ages, bins=20, color='green', )
 
 # Another way to change bins:
-plt.hist(ages, bins=[2, 4, 6, 8, 10, 12, 14, 16,
-         18, 20, 22, 24, 26, 28, 30], color='green')
+# plt.hist(ages, bins=[2, 4, 6, 8, 10, 12, 14, 16,
+#          18, 20, 22, 24, 26, 28, 30], color='green')
+
+# plot cumulative distribution
+
+plt.hist(ages, bins=20, cumulative=True)
+
 plt.show()
 
 # save the figure
-plt.savefig('../Figures/figure4_3.png')
+plt.savefig('../Figures/figure4_4.png')
