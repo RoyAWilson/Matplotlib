@@ -8,5 +8,5 @@ y_data = np.random.random(50) * 100
 
 # Scatter Plots:
 
-plt.scatter(x=x_data, y=y_data)
+plt.scatter(x=x_data, y=y_data, c='Green', marker='*', s=150)
 plt.show()
