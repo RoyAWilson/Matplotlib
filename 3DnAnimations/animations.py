@@ -15,3 +15,4 @@ for _ in range(100000):
 plt.show()
 
 # Do not run, can't break out even with control C
+# Not printable as animated so won't save

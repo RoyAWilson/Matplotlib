@@ -10,5 +10,5 @@ y_data = np.random.random(1000) * 100
 
 z_plot = plt.scatter(x=x_data, y=y_data, c='Green',
                      marker='*', s=150, alpha=0.3)
-plt.show()
 plt.savefig('../Figures/figure1_2Try.png')
+plt.show()

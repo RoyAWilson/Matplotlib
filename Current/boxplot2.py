@@ -12,6 +12,6 @@ fifth = np.linspace(300, 250, 25)
 
 data = np.concatenate((first, second, third, fourth, fifth))
 plt.boxplot(data)
+plt.savefig('../Figures/figure6_3.png')
 plt.show()
 # give weird results if add a second dataset
-plt.savefig('../Figures/figure6_3.png')

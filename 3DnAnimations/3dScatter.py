@@ -15,8 +15,7 @@ ax.set_xlabel('Test X')
 ax.set_ylabel('Test Y')
 ax.set_zlabel('Test Z')
 ax.set_title('3D Scatter Plot')
+plt.savefig('../Figures/figure12_2_HQ.png', dpi=300)
 plt.show()
 
 # POlots in 3d and can rotate the plot by dragging
-
-plt.savefig('../Figures/figure12_2_HQ.png', dpi=300)

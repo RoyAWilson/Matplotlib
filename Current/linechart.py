@@ -12,5 +12,5 @@ weight = [80, 83, 84, 85, 86, 82, 81, 79,
 
 plt.plot(years, weight, c='Blue', lw=3,
          linestyle='--')
-plt.show()
 plt.savefig('../Figures/figure2_2.png')
+plt.show()

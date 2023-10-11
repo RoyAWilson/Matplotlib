@@ -17,5 +17,5 @@ plt.ylabel('Income in Pounds Sterling', fontname='Times New Roman')
 # list comprehension loop through all ticks and produce f'string for ticks on y axi
 plt.yticks(income_ticks, [
            f'£{x}K  UK' for x in income_ticks], fontname='Times New Roman')
-plt.show()
 plt.savefig('../Figures/figure7_3.png')
+plt.show()

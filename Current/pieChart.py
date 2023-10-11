@@ -11,7 +11,7 @@ votes = [50, 24, 14, 6, 17]
 explodes = [0, 0.1, 0, 0.2, 0]
 plt.pie(votes, labels=langs, explode=explodes,
         autopct='%.2f%%', pctdistance=0.75, startangle=90)
+plt.savefig('../Figures/figure5_2.png')
 plt.show()
 
 # Save it
-plt.savefig('../Figures/figure5_2.png')

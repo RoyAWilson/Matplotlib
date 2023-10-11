@@ -9,7 +9,5 @@ heights = np.random.normal(172, 8, 300)
 
 # Plot it
 plt.boxplot(heights)
-plt.show()
-
-# and save the fig
 plt.savefig('../Figures/figure6_2.png')
+plt.show()
